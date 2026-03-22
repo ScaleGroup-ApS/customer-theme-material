@@ -6,21 +6,24 @@
    ──────────────────────────────────────────────────────────────────────── */
 
 @theme {
-  --color-primary: #2563eb;
-  --color-primary-dark: #1d4ed8;
-  --color-primary-light: #3b82f6;
-  --color-secondary: #0f172a;
-  --color-accent: #06b6d4;
-  --color-surface: #ffffff;
-  --color-surface-dim: #f8fafc;
-  --color-surface-dark: #0f172a;
-  --color-text: #1e293b;
-  --color-text-muted: #64748b;
-  --color-text-on-dark: #f1f5f9;
-  --color-border: #e2e8f0;
+  /* MD3 Palette */
+  --color-primary: #1565C0;
+  --color-primary-dark: #0D47A1;
+  --color-primary-light: #1976D2;
+  --color-secondary: #0288D1;
+  --color-accent: #0288D1;
+  --color-surface: #FAFAFA;
+  --color-surface-dim: #E3F2FD;
+  --color-surface-dark: #0D47A1;
+  --color-surface-variant: #E3F2FD;
+  --color-text: #212121;
+  --color-text-muted: #546E7A;
+  --color-text-on-dark: #FFFFFF;
+  --color-border: #BBDEFB;
 
-  --font-heading: "Inter", system-ui, -apple-system, sans-serif;
-  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+  /* MD3 Typography */
+  --font-heading: "Roboto", system-ui, -apple-system, sans-serif;
+  --font-body: "Roboto", system-ui, -apple-system, sans-serif;
 }
 
 /* ── Base Styles ───────────────────────────────────────────────────────── */
